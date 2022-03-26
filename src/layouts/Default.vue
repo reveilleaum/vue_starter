@@ -1,6 +1,5 @@
 <script setup>
 import { onMounted } from "vue";
-import { RouterLink, RouterView } from "vue-router";
 import { getData } from "@/api";
 
 onMounted(() => {

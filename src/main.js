@@ -1,5 +1,6 @@
 import { createApp } from "vue";
 import { createPinia } from "pinia";
+import { RouterLink, RouterView } from "vue-router";
 import axios from "axios";
 import App from "@/layouts/Default.vue";
 import router from "@/router";
@@ -15,6 +16,8 @@ app.config.globalProperties.axios = axios.create({
 
 app.use(createPinia());
 app.use(router);
+app.use(RouterLink);
+app.use(RouterView);
 
 // app.mixin(apiCalls);
 // app.mixin(functions);
