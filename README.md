@@ -33,9 +33,3 @@ yarn build
 ```sh
 yarn lint
 ```
-
-## Axios
-
-```sh
-yarn add axios
-```
